@@ -1,0 +1,68 @@
+body{
+    font-family: Arial;
+    background-color: white;
+
+}
+
+header{
+    background-color: white;
+    text-align: right;
+    border: thick solid white;
+    position:relative;
+    
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    margin: 5px;
+    padding: 6px;
+}
+
+#form{
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+
+}
+
+
+#about{
+    /* direction to about page */
+    border: 1px solid black;
+    background-color: steelblue;
+    color: White;
+    border-radius: 5px;
+}
+
+#register{
+    /*direction to registration*/
+    border: 1px solid black;
+    background-color: steelblue;
+    color: White;
+    border-radius: 5px;
+}
+
+#submit{
+    /* submit form */
+    border: 2px solid steelblue;
+    background-color: steelblue;
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    color: White;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#bg{
+    background-color: skyblue;
+    padding: 300px 800px
+}
