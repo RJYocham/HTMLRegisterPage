@@ -3,13 +3,17 @@ body{
     background-color: white;
 
 }
+h1{
+    text-align: left;
+    padding-left: 40px;
+}
 
 header{
     background-color: white;
     text-align: right;
-    border: thick solid white;
+    border-bottom:solid darkgray;
     position:relative;
-    
+    height: 75px;
 }
 
 input{
@@ -27,42 +31,53 @@ input{
     border: 1px solid darkgray;
     border-radius: 5px;
     text-align: center;
-    padding: 10px;
-    width: 350px;
-
+    padding: 15px;
+    width: 400px;
 }
 
 
 #about{
     /* direction to about page */
-    border: 1px solid black;
+    border: 1px solid royalblue;
     background-color: steelblue;
     color: White;
     border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size:15px;
+    font-weight: bold;
+    margin: 15px;
 }
 
 #register{
     /*direction to registration*/
-    border: 1px solid black;
+    border: 1px solid royalblue;
     background-color: steelblue;
     color: White;
     border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size:15px;
+    font-weight: bold;
+    margin: 15px;
 }
 
 #submit{
     /* submit form */
-    border: 2px solid steelblue;
+    border: 2px solid royalblue;
     background-color: steelblue;
     border-radius: 5px;
-    width: 300px;
-    height: 25px;
+    width: 320px;
+    height: 40px;
     color: White;
     font-size: 15px;
     font-weight: bold;
     margin: 10px;
+
 }
 
 #bg{
-    background-color: skyblue;
-    padding: 300px 800px
+    background-color: rgb(22, 151, 211);
+    padding: 100px 700px 500px 700px;
 }
+
